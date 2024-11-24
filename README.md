@@ -12,7 +12,7 @@ This repository outlines a project designed to enhance the thermal management an
     <th style="text-align: left;">Demo Video</th>
   </tr>
   <tr>
-    <td><img src="./assets/images/device_final_preview.jpg" alt="Image of final product" style="width: 100%;"></td>
+    <td><img src="./assets/images/device_final_preview.jpg" alt="Image of final product" style="width: 100%; max-width: 300px;"></td>
     <td>
       <video style="width: 100%;" controls>
         <source src="./assets/videos/preview_video.mp4" type="video/mp4">
