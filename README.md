@@ -6,9 +6,22 @@ This repository outlines a project designed to enhance the thermal management an
 
 > **Note:** You can read the complete instructions on [The Forge blog]().
 
-| Final Product | Demo Video |
-|---|---|
-|![Image of final product](./assets/images/device_final_preview.jpg)| <video width="640" height="360" controls><source src="./assets/|videos/preivew_video.mp4" type="video/mp4">Your browser does not support the video tag.</video> |
+<table style="width: 100%;">
+  <tr>
+    <th style="text-align: left;">Final Product</th>
+    <th style="text-align: left;">Demo Video</th>
+  </tr>
+  <tr>
+    <td><img src="./assets/images/device_final_preview.jpg" alt="Image of final product" style="width: 100%;"></td>
+    <td>
+      <video style="width: 100%;" controls>
+        <source src="./assets/videos/preview_video.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </td>
+  </tr>
+</table>
+
 
 <!-- TOC depthfrom:2 depthto:3 -->
 
@@ -24,7 +37,7 @@ This repository outlines a project designed to enhance the thermal management an
     - [Contribution](#contribution)
 
 <!-- /TOC -->
-
+<!-- /TOC -->
 ---
 
 ## Features
