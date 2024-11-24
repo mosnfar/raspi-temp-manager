@@ -12,9 +12,9 @@ This repository outlines a project designed to enhance the thermal management an
     <th style="text-align: left;">Demo Video</th>
   </tr>
   <tr>
-    <td><img src="./assets/images/device_final_preview.jpg" alt="Image of final product" style="width: 100%; max-width: 300px;"></td>
+    <td><img src="./assets/images/device_final_preview.jpg" alt="Image of final product" width="300"></td>
     <td>
-      <video style="width: 100%;" controls>
+      <video width="300" height="180" controls>
         <source src="./assets/videos/preview_video.mp4" type="video/mp4">
         Your browser does not support the video tag.
       </video>
@@ -22,6 +22,7 @@ This repository outlines a project designed to enhance the thermal management an
   </tr>
 </table>
 
+---
 
 <!-- TOC depthfrom:2 depthto:3 -->
 
@@ -37,7 +38,7 @@ This repository outlines a project designed to enhance the thermal management an
     - [Contribution](#contribution)
 
 <!-- /TOC -->
-<!-- /TOC -->
+
 ---
 
 ## Features
