@@ -8,9 +8,8 @@ This repository outlines a project designed to enhance the thermal management an
 
 | Final Product | Demo Video |
 |---|---|
-|![Image of final product](./assets/images/device_final_preview.jpg)|![Video of final product](./assets/videos/preivew_video.mp4)|
+|![Image of final product](./assets/images/device_final_preview.jpg)| <video width="640" height="360" controls><source src="./assets/|videos/preivew_video.mp4" type="video/mp4">Your browser does not support the video tag.</video> |
 
----
 <!-- TOC depthfrom:2 depthto:3 -->
 
 - [Features](#features)
@@ -23,8 +22,6 @@ This repository outlines a project designed to enhance the thermal management an
     - [Image Gallery](#image-gallery)
     - [Complete Instruction](#complete-instruction)
     - [Contribution](#contribution)
-
-<!-- /TOC -->
 
 <!-- /TOC -->
 
