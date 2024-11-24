@@ -4,7 +4,7 @@ A comparative tool and hardware setup for Raspberry Pi (RasPi) to manage tempera
 
 This repository outlines a project designed to enhance the thermal management and monitoring capabilities of a Raspberry Pi 4 housed in an Argon NEO case. The project combines hardware modifications and custom software to provide effective cooling and real-time system monitoring through a small OLED display.
 
-> **Note:** You can read the complete instructions on [The Forge blog]().
+> **Note:** You can read the complete instructions on [The Forge blog](https://forge.mosn.me/keeping-your-raspberry-pi-cool-a-temperature-manager-tool).
 
 <table style="width: 100%;">
   <tr>
@@ -221,7 +221,7 @@ Here are some images that highlight the project:
 </table>
 
 ### Complete Instruction
-I wrote a complete guide and instructions on my blog "The Forge" you can read it through [this link]().
+I wrote a complete guide and instructions on my blog "The Forge" you can read it through [this link](https://forge.mosn.me/keeping-your-raspberry-pi-cool-a-temperature-manager-tool).
 
 ### Contribution
 Feel free to customize and improve the project however you'd like! Your contributions are always welcome, and together we can make it even better. Don't hesitate to jump in and help out! 😊
