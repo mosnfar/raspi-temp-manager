@@ -9,23 +9,18 @@ This repository outlines a project designed to enhance the thermal management an
 
 <table style="width: 100%;">
   <tr>
-    <th style="text-align: left;">Final Product</th>
-    <th style="text-align: left;">Demo Video</th>
+    <th style="text-align: left;"> Final Product </th>
+    <th style="text-align: left;"> Demo Video </th>
   </tr>
   <tr>
     <td><img src="/assets/images/device_final_preview.jpg" alt="Image of final product" width="300"></td>
-    <td>
-      <video width="300" height="180" controls>
-        <source src="/assets/videos/preivew_video.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-      </video>
-    </td>
+    <td><a href="https://www.youtube.com/watch?v=cTe1wpACoGw"><img src="https://img.youtube.com/vi/cTe1wpACoGw/0.jpg" alt="Image of final product" width="300"></a></td>
   </tr>
 </table>
 
 ---
 
-Table of content:
+Table of contents:
 
 <!-- TOC depthfrom:2 depthto:3 -->
 
@@ -33,7 +28,7 @@ Table of content:
 - [Hardware](#hardware)
     - [Hardware Components](#hardware-components)
     - [Schematic](#schematic)
-- [D Case](#d-case)
+- [3D Case](#3d-case)
 - [Software](#software)
 - [More Information](#more-information)
     - [Image Gallery](#image-gallery)
