@@ -4,7 +4,8 @@ A comparative tool and hardware setup for Raspberry Pi (RasPi) to manage tempera
 
 This repository outlines a project designed to enhance the thermal management and monitoring capabilities of a Raspberry Pi 4 housed in an Argon NEO case. The project combines hardware modifications and custom software to provide effective cooling and real-time system monitoring through a small OLED display.
 
-> **Note:** You can read the complete instructions on [The Forge blog](https://forge.mosn.me/keeping-your-raspberry-pi-cool-a-temperature-manager-tool).
+> [!NOTE]
+> You can read the complete instructions on [The Forge blog](https://forge.mosn.me/keeping-your-raspberry-pi-cool-a-temperature-manager-tool).
 
 <table style="width: 100%;">
   <tr>
@@ -12,10 +13,10 @@ This repository outlines a project designed to enhance the thermal management an
     <th style="text-align: left;">Demo Video</th>
   </tr>
   <tr>
-    <td><img src="./assets/images/device_final_preview.jpg" alt="Image of final product" width="300"></td>
+    <td><img src="/assets/images/device_final_preview.jpg" alt="Image of final product" width="300"></td>
     <td>
       <video width="300" height="180" controls>
-        <source src="./assets/videos/preivew_video.mp4" type="video/mp4">
+        <source src="/assets/videos/preivew_video.mp4" type="video/mp4">
         Your browser does not support the video tag.
       </video>
     </td>
@@ -64,7 +65,7 @@ Table of content:
 
 Here is the schematic for connecting all components to the Raspberry Pi GPIO.
 
-![Schematic Diagram](./assets/images/diagram.png)
+![Schematic Diagram](/assets/images/diagram.png)
 
 #### DRV8833 Driver ←→ Rasberry Pi
 | *DRV8833* | *Raspberry Pi 4 GPIO* |
@@ -93,9 +94,9 @@ Here is the schematic for connecting all components to the Raspberry Pi GPIO.
 
 ## 3D Case
 
-![Image of 3D printed part](./assets/images/image_of_3d_print.jpg)
+![Image of 3D printed part](/assets/images/image_of_3d_print.jpg)
 
-I used the [Argon NEO Case](https://argon40.com/products/argon-neo-case-for-raspberry-pi-4) for my raspberry pi 4 and I modified this case to place the components. You can find the 3D design file in the [`./3d-files` directory](./3d-files/) or through this [link](https://www.printables.com/model/1085113-rascase-raspberry-pi-argon-neo-case-add-on). You can also 3D print any other case of your choice to house the components. 
+I used the [Argon NEO Case](https://argon40.com/products/argon-neo-case-for-raspberry-pi-4) for my raspberry pi 4 and I modified this case to place the components. You can find the 3D design file in the [`./3d-files` directory](/3d-files/) or through this [link](https://www.printables.com/model/1085113-rascase-raspberry-pi-argon-neo-case-add-on). You can also 3D print any other case of your choice to house the components. 
 
 ## Software
 
@@ -115,7 +116,8 @@ To run this script you need these libraries gpiozero, Pillow(PIL), and adafruit_
 pip install -r requirements.txt
 ```
 
-> **Tip:** If you are using a newer version of Python, install the libraries globally rather than in a virtual environment.
+> [!TIP]
+> If you are using a newer version of Python, install the libraries globally rather than in a virtual environment.
 
 #### 03. Copy essential files
 
@@ -182,38 +184,38 @@ Here are some images that highlight the project:
     <tr>
         <td align="center">
             <figure>
-                <img src="./assets/images/measuring_case.jpeg" style="width: 100%;" alt="Image">
+                <img src="/assets/images/measuring_case.jpeg" style="width: 100%;" alt="Image">
                 <figcaption>Measuring Case</figcaption>
             </figure>
         </td>
         <td align="center">
             <figure>
-                <img src="./assets/images/soldering_components.jpeg" style="width: 100%;" alt="Image">
+                <img src="/assets/images/soldering_components.jpeg" style="width: 100%;" alt="Image">
                 <figcaption>Soldering Components</figcaption>
             </figure>
         </td>
         <td align="center">
             <figure>
-                <img src="./assets/images/component_preview.jpeg" style="width: 100%;" alt="Image">
+                <img src="/assets/images/component_preview.jpeg" style="width: 100%;" alt="Image">
                 <figcaption>Component Preview</figcaption>
             </figure>
     </tr>
     <tr>
         <td align="center">
             <figure>
-                <img src="./assets/images/glue_magnets.jpeg" style="width: 100%;" alt="Image">
+                <img src="/assets/images/glue_magnets.jpeg" style="width: 100%;" alt="Image">
                 <figcaption>Glue Magnets</figcaption>
             </figure>
         </td>
         <td align="center">
             <figure>
-                <img src="./assets/images/connection.jpeg" style="width: 100%;" alt="Image">
+                <img src="/assets/images/connection.jpeg" style="width: 100%;" alt="Image">
                 <figcaption>Connection Preview</figcaption>
             </figure>
         </td>
         <td align="center">
             <figure>
-                <img src="./assets/images/assembled.jpeg" style="width: 100%;" alt="Image">
+                <img src="/assets/images/assembled.jpeg" style="width: 100%;" alt="Image">
                 <figcaption>Assembled Product</figcaption>
             </figure>
         </td>
