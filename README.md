@@ -13,8 +13,8 @@ This repository outlines a project designed to enhance the thermal management an
     <th style="text-align: left;"> Demo Video </th>
   </tr>
   <tr>
-    <td><img src="/assets/images/device_final_preview.jpg" alt="Image of final product" width="300"></td>
-    <td><a href="https://www.youtube.com/watch?v=cTe1wpACoGw"><img src="https://img.youtube.com/vi/cTe1wpACoGw/0.jpg" alt="Image of final product" width="300"></a></td>
+    <td width="50%"><img src="./assets/images/device_final_preview.jpg" alt="Image of final product"></td>
+    <td width="50%"><a href="https://www.youtube.com/watch?v=cTe1wpACoGw"><img src="./assets/images/youtube_thumbnail.png" alt="Yotube thumbnail of demo video"></a></td>
   </tr>
 </table>
 
@@ -22,7 +22,7 @@ This repository outlines a project designed to enhance the thermal management an
 
 Table of contents:
 
-<!-- TOC depthfrom:2 depthto:3 -->
+<!-- TOC depthfrom:2 depthto:3 updateonsave:false -->
 
 - [Features](#features)
 - [Hardware](#hardware)
