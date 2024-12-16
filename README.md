@@ -22,15 +22,15 @@ This repository outlines a project designed to enhance the thermal management an
 
 Table of contents:
 
-<!-- TOC depthfrom:2 depthto:3 updateonsave:false -->
+<!-- TOC depthfrom:2 depthto:3 -->
 
-- [Features](#features)
-- [Hardware](#hardware)
+- [:sparkles: Features](#sparkles-features)
+- [:nut_and_bolt: Hardware](#nut_and_bolt-hardware)
     - [Hardware Components](#hardware-components)
     - [Schematic](#schematic)
-- [3D Case](#3d-case)
-- [Software](#software)
-- [More Information](#more-information)
+- [:package: 3D Case](#package-3d-case)
+- [:computer: Software](#computer-software)
+- [:information_desk_person: More Information](#information_desk_person-more-information)
     - [Image Gallery](#image-gallery)
     - [Complete Instruction](#complete-instruction)
     - [Contribution](#contribution)
@@ -39,7 +39,7 @@ Table of contents:
 
 ---
 
-## Features
+## :sparkles: Features
 - **Dynamic Cooling**: Automatically adjusts the fan speed according to system temperature thresholds.
 - **Real-Time Monitoring**: Displays key metrics like:
   - CPU & GPU temperature
@@ -47,7 +47,7 @@ Table of contents:
   - System overview
 - **Compact Design**: Retains the Argon NEO case's form factor with minimal modifications.
 
-## Hardware
+## :nut_and_bolt: Hardware
 
 ### Hardware Components
 
@@ -87,13 +87,13 @@ Here is the schematic for connecting all components to the Raspberry Pi GPIO.
 
 
 
-## 3D Case
+## :package: 3D Case
 
 ![Image of 3D printed part](/assets/images/image_of_3d_print.jpg)
 
 I used the [Argon NEO Case](https://argon40.com/products/argon-neo-case-for-raspberry-pi-4) for my raspberry pi 4 and I modified this case to place the components. You can find the 3D design file in the [`./3d-files` directory](/3d-files/) or through this [link](https://www.printables.com/model/1085113-rascase-raspberry-pi-argon-neo-case-add-on). You can also 3D print any other case of your choice to house the components. 
 
-## Software
+## :computer: Software
 
 #### 01. Clone Repository
 
@@ -171,7 +171,7 @@ sudo systemctl start temp_manager.service
 **:smiley: Awesome, everything is set up perfectly and should work great!**
 
 
-## More Information
+## :information_desk_person: More Information
 
 ### Image Gallery
 Here are some images that highlight the project:
