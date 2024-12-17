@@ -22,9 +22,8 @@ This repository outlines a project designed to enhance the thermal management an
 
 Table of contents:
 
-<!-- TOC depthfrom:1 depthto:2 -->
+<!-- TOC depthfrom:2 depthto:3 -->
 
-- [RasPi Temp Manager](#raspi-temp-manager)
 - [:sparkles: Features](#sparkles-features)
 - [:nut_and_bolt: Hardware](#nut_and_bolt-hardware)
     - [Hardware Components](#hardware-components)
@@ -40,7 +39,7 @@ Table of contents:
 
 ---
 
-# :sparkles: Features
+## :sparkles: Features
 - **Dynamic Cooling**: Automatically adjusts the fan speed according to system temperature thresholds.
 - **Real-Time Monitoring**: Displays key metrics like:
   - CPU & GPU temperature
@@ -48,16 +47,16 @@ Table of contents:
   - System overview
 - **Compact Design**: Retains the Argon NEO case's form factor with minimal modifications.
 
-# :nut_and_bolt: Hardware
+## :nut_and_bolt: Hardware
 
-## Hardware Components
+### Hardware Components
 
 1. **128×64 px OLED Display (SSD1306):** Uses I2C protocol to display system metrics, including temperature, system, and network status.
 2. **Miniature 5V Fan:** Provides active cooling to maintain optimal system temperature.
 3. **DRV8833 Dual Motor Driver:** Controls the 5V fan with PWM for precise speed adjustments.
 4. **Raspberry Pi 4:** Serves as the mainboard.
 
-## Schematic
+### Schematic
 
 Here is the schematic for connecting all components to the Raspberry Pi GPIO.
 
@@ -88,15 +87,15 @@ Here is the schematic for connecting all components to the Raspberry Pi GPIO.
 
 
 
-# :package: 3D Case
+## :package: 3D Case
 
 ![Image of 3D printed part](/assets/images/image_of_3d_print.jpg)
 
 I used the [Argon NEO Case](https://argon40.com/products/argon-neo-case-for-raspberry-pi-4) for my raspberry pi 4 and I modified this case to place the components. You can find the 3D design file in the [`./3d-files` directory](/3d-files/) or through this [link](https://www.printables.com/model/1085113-rascase-raspberry-pi-argon-neo-case-add-on). You can also 3D print any other case of your choice to house the components. 
 
-# :computer: Software
+## :computer: Software
 
-### 01. Clone Repository
+#### 01. Clone Repository
 
 Clone the repository into your raspberry pi:
 
@@ -104,7 +103,7 @@ Clone the repository into your raspberry pi:
 git clone https://github.com/mosnfar/raspi-temp-manager
 ```
 
-### 02. Install Requirements
+#### 02. Install Requirements
 
 To run this script you need these libraries gpiozero, Pillow(PIL), and adafruit_ssd1306 that are not in raspberry pi, install requirements libraries:
 
@@ -115,7 +114,7 @@ pip install -r requirements.txt
 > [!TIP]
 > If you are using a newer version of Python, install the libraries globally rather than in a virtual environment.
 
-### 03. Copy essential files
+#### 03. Copy essential files
 
 You should copy essential files "font and boot lofo" to `/usr/local/share`, use the following command:
 
@@ -125,7 +124,7 @@ cp ./fonts/lucan.ttf /usr/local/share/temp_manager
 cp ./images/raspberrypi_logo_inverted.bmp /usr/local/share/temp_manager
 ```
 
-### 04. Test Configs
+#### 04. Test Configs
 
 You can test everything to make sure configs are working correctly by running `test_config.py` to check "Required libraries installation", "I2C connection", "Fan connection", and "Essential files". You can run test by this:
 
@@ -133,7 +132,7 @@ You can test everything to make sure configs are working correctly by running `t
 python test_config.py
 ```
 
-### 05. Configure Boot Script
+#### 05. Configure Boot Script
 
 After successful testing, configure a service to add that into system boot and the script will be running at startup. First copy `temp_manager.py` script into `/usr/local/bin`:
 
@@ -172,9 +171,9 @@ sudo systemctl start temp_manager.service
 **:smiley: Awesome, everything is set up perfectly and should work great!**
 
 
-# :information_desk_person: More Information
+## :information_desk_person: More Information
 
-## Image Gallery
+### Image Gallery
 Here are some images that highlight the project:
 <table>
     <tr>
@@ -218,8 +217,8 @@ Here are some images that highlight the project:
     </tr>
 </table>
 
-## Complete Instruction
+### Complete Instruction
 I wrote a complete guide and instructions on my blog "The Forge" you can read it through [this link](https://forge.mosn.me/keeping-your-raspberry-pi-cool-a-temperature-manager-tool).
 
-## Contribution
+### Contribution
 Feel free to customize and improve the project however you'd like! Your contributions are always welcome, and together we can make it even better. Don't hesitate to jump in and help out! 😊
